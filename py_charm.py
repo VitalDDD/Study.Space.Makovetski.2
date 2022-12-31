@@ -19,7 +19,7 @@ if j!=1:
 
 def test_function(file):
     dct={}
-    dt=open(f"{file}", "w")
+
     for l in dt:
         kk=l.rstrip("\n")
         kl = kk.rsplit(":")
