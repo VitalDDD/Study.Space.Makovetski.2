@@ -1,6 +1,5 @@
 import random
 
-print("Пограємо у гру!")
 x=random.randrange(1, 151, 1)
 j=0
 
