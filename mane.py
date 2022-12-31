@@ -9,3 +9,11 @@ def mane_function(slov, nazva):
     print("Good luck!")
     return sl
 
+def test_function(file):
+    dct={}
+    dt=open(f"{file}", "r")
+    for l in dt:
+        kk=l.rstrip("\n")
+        dct.update({k:v})
+    dt.close()
+    return dct
