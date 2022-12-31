@@ -18,3 +18,14 @@ for i in range(6):
 if j!=1:
     print(f"Це було число {x}. Ви програли :( . Спробуйте наступного разу.")
 
+def test_function(file):
+    dct={}
+    dt=open(f"{file}", "r")
+    for l in dt:
+        kk=l.rstrip("\n")
+        kl = kk.rsplit(":")
+        k = kl[0]
+        v = kl[1]
+        dct.update({k:v})
+    dt.close()
+    return dct
