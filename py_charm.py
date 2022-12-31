@@ -1,10 +1,10 @@
 import random
 
-x=random.randrange(1, 121, 1)
+x=random.randrange(1, 151, 1)
 j=0
 
 for i in range(6):
-    y = int(input("Введіть число від 1 до 120: "))
+    y = int(input("Введіть число від 1 до 150: "))
     if y>x and i!=5:
         print("Число має бути меншим")
     elif y<x and 1!=5:
