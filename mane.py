@@ -14,6 +14,9 @@ def test_function(file):
     dt=open(f"{file}", "r")
     for l in dt:
         kk=l.rstrip("\n")
+        kl = kk.rsplit(":")
+        k = kl[0]
+        v = kl[1]
         dct.update({k:v})
     dt.close()
     return dct
