@@ -5,4 +5,6 @@ def mane_function(slov, nazva):
     for k in slov:
         sl.write(f"{k} : {slov[k]} \n")
     sl.close()
+    print("Good job!")
     return sl
+
